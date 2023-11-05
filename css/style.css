@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+
+
+/* ======================= common css part start ===================== */
+ *{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+ }
+ body{
+    background-color: #f9f9f9;
+ }
+ ul,ol{
+    list-style: none;
+ }
+ a{
+    display: inline-block;
+    text-decoration: none;
+ }
+ img{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+ }
+ .container{
+    width: 1170px;
+    margin: 0 auto;
+ }
+ .clr{
+    clear: both;
+ }
+/* ----------------------- common css part end ----------------------- */
+/* ======================= common css part start ===================== */
+ #main_menu{
+    width: 100%;
+    height: 90px;
+    background: black;
+ }
+ .menu_row{
+    line-height: 90px;
+ }
+ .menu_logo{
+    float: left;
+    width: 30%; 
+ }
+ .menu_logo img{
+    height: 25px;
+    width: 100px;
+ }
+ .menu_text{
+    float: left;
+    width: 70%; 
+ }
+ .menu_text ul{
+    float: right;
+ }
+ .menu_text ul li{
+    float: left;
+ }
+ .menu_text ul li a{
+    margin-left: 44px;
+    font-size:14px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all linear 0.3s;
+}
+.menu_row .menu_text ul li a:hover{
+    color: #28b8d8;
+}
+/* ----------------------- common css part end ----------------------- */
+/* ======================= banner css part start ===================== */
+ #banner{
+    height: 610px;
+    width: 100%;
+    background: url('../images/banner_bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+ .banner_text h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-align: center;
+    padding-top: 241px;
+    text-transform: uppercase;
+}
+.banner_text h2{
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+.banner_text p{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+    text-align: center;
+}
+
+/* ----------------------- banner css part end ----------------------- */
+/* ======================= about css part start ===================== */
+#about{
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 83px;
+}
+.about_heading  h2{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    color: #444444;
+    text-align: center;
+}
+.about_heading p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+    color: #666666;
+    text-align: center;
+    margin-top: 30px;
+}
+.service_head h2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.service_row{
+    float: left;
+    margin-bottom: 60px;
+}
+.service_row .service_col{
+    width: 370px;
+    height: auto;
+    background: #ffffff;
+    padding: 15px;
+    border: 1px solid #e3e3e3;
+    float: left;
+    margin-right: 27px;
+}
+.service_row .service_col:nth-child(3){
+    margin-right: 0;
+}
+.service_col .service_text h2{
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    color: #444444;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+.service_text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    text-align: center;
+}
+
+/* ----------------------- about css part end ----------------------- */
+/* ======================= short css part start ===================== */
+#short{
+    background: #2c2c2c;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.common_heading h2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #d5d5d5;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+}
+.common_heading h2::after{
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: #535353;
+    position: absolute;
+    top: 50%;
+    left: 29%;
+}
+.common_heading h2::before{
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: #535353;
+    position: absolute;
+    top: 50%;
+    right: 29%;
+}
+.short_img_row{
+    text-align: center;
+    padding-top: 44px;
+}
+.short_img_col{
+    text-align: center;
+}
+.short_img_col img{
+    height: 327px;
+    width: 379.8px;
+    float: left;
+}
+.short_bottom{
+    text-align: center;
+}
+.short_bottom a{
+    height:47px;
+    width: 177px;
+    background: transparent;
+    text-align: center;
+    border: 1px solid #797979;
+    line-height: 47px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #a6a6a6;
+    margin-top: 50px;
+    text-transform: uppercase;
+    position: relative;
+}
+.short_bottom a:hover{
+    background: #a6a6a6;
+    color: #fff;
+}
+/* ----------------------- short css part end ----------------------- */
+/* ======================= journal css part start ===================== */
+#journal{
+    padding-top: 78px;
+    padding-bottom: 83px;
+}
+.common_heading h2{
+    color: #444444;
+}
+.common_heading h2::after{
+    background: #d9d9d9;
+    left: 29%;
+}
+.common_heading h2::before{
+    background: #d9d9d9;
+    right: 29%;
+}
+.journal_row{
+    margin-top: 30px;
+}
+.journal_col{
+    width: 368px;
+    background: #ffffff;
+    padding: 25px 0;
+    border: 1px solid #e3e3e3;
+    float: left;
+    margin-right: 30px;
+}
+.journal_col:nth-child(3){
+    margin-right: 0;
+}
+.journal_col .journal_head h3{
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    color: #444444;
+    text-align: center;
+}
+.journal_col .journal_head p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 20px;
+}
+.journal_col .journal_text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    padding: 24px;
+}
+
+.journal_reading_row .journal_reading_col h3 a{
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+    text-transform: uppercase;
+    float: left;
+    margin-left: 25px;
+    position: relative;
+}
+.journal_reading_row .journal_reading_col h3 a::before{
+    content: '';
+    height: 1px;
+    width: 100%;
+    background: #28b8d8;
+    position: absolute;
+    top: 18px;
+    visibility: hidden;
+    transition: all linear 03s;
+}
+.journal_reading_row .journal_reading_col h3 a:hover::before{
+    visibility: visible;
+}
+.journal_reading_row .journal_icon{
+    float: right;
+    margin-right: 30px;
+}
+.journal_icon {
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #999999;
+}
+/* ----------------------- journal css part end ----------------------- */
+/* ======================= portfolio css part start ===================== */
+ #portfolio{
+    padding-bottom: 80px;
+ }
+ .portfolio_main_row .portfolio_title_col{
+    width: 50%;
+    float: left;
+ }
+ .portfolio_common_head{
+    padding-bottom: 30px;
+ }
+ .portfolio_common_head h3{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+    text-transform: uppercase;
+    position: relative;
+ }
+ .portfolio_common_head h3::before{
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: #d9d9d9;
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    transform: translateX(-50%);
+}
+.title_img img{
+    width: 196px;
+    float: left;
+}
+.title_text p{
+    width: 345px;
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    margin-left: 26px;
+}
+.title_text p span{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+    color: #666666;
+    display: inline-block;
+    margin-bottom: 27px;
+}
+.portfolio_service_main_col{
+    width: 50%;
+    float: left;
+}
+.portfolio_service_icon img{
+    width: 40px;
+    float: left;
+}
+.portfolio_service_text{
+    width: 500px;
+    float: left;
+    margin-left: 24px;
+}
+.portfolio_service_text h2{
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    color: #444444;
+    margin-bottom: 16px;
+}
+.portfolio_service_text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    margin-bottom: 30px;
+}
+/* ----------------------- portfolio css part end ----------------------- */
+/* ======================= footer css part start ===================== */
+#footer{
+    background: #373737;
+    padding-top: 68px;
+    padding-bottom: 83px;
+}
+.address{
+    float: left;
+}
+.footer_common_head h3{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #f0f0f0;
+    text-transform: uppercase;
+}
+.footer_data p{
+    width: 255px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #cacaca;
+    margin-top: 25px;
+    margin-bottom: 34px;
+}
+.footer_data ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #cacaca;
+    margin-top: 12px;
+}
+.footer_data ul li a .span_one{
+    margin-right: 16px;
+}
+.footer_data ul li a .span_two{
+    display: block;
+    margin-left: 30px;
+    margin-top: 13px;
+}
+.twiter{
+    float: left;
+    padding-left: 47px;
+}
+.posts{
+    float: left;
+    padding-left: 47px;
+}
+.footer_data ul li p .span_three{
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #929292;
+}
+.footer_about{
+    float: left;
+    padding-left: 47px;
+}
+/* ----------------------- footer css part end ----------------------- */
+/* ======================= copyright css part start ===================== */
+#copyright{
+    padding: 40px 0;
+    background: #333333;
+}
+.copyright_text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #cacaca;
+}
+/* ----------------------- copyright css part end ----------------------- */
+/* ======================= common css part start ===================== */
+/* ----------------------- common css part end ----------------------- */
